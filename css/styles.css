@@ -45,8 +45,9 @@ h1 {
 
 @media (max-width: 767px) {
     .mapa-tamaño {
-        height: 300px;
-        width: 500px;
+        height: 200px;
+        width: 350px;
+        text-align: left;
     }
     .fuenteGrandeIzq  {
         text-align: left;
@@ -123,10 +124,10 @@ header {
 
 .fuenteGrandeIzq {
     font-size: 4rem;
-    text-align: left;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-    margin-left: 55rem;
+    
 }
 
 ul {
@@ -207,7 +208,7 @@ ul li a:hover {
     background-color: #333;
     width: 17%;
     height: 410px;
-    padding: 50px 10px;
+    padding: 33px 10px;
     /* position: relative; */
     width: 35rem;
     margin-bottom: 20px;
@@ -251,6 +252,12 @@ ul li a:hover {
     margin: 0 auto;
     border: solid 3px white;
     border-radius: 20px;
+    
+}
+
+.imagen-1:hover {
+    width: 33rem;
+    height: 33rem;
 }
 
 .boton-reserva {
