@@ -137,6 +137,10 @@ ul {
     z-index: 999;
 }
 
+.z-index {
+    z-index: 1;
+}
+
 ul li a:hover {
     background: #8b8888;
     transition: all 0.4s linear;
@@ -179,9 +183,6 @@ ul li a:hover {
         display: block;
         color: white;
         font-size: 2rem 
-    }
-    .navegacion ul {
-        display: none;
     }
 
     
@@ -322,6 +323,10 @@ a {
     font-family: georgia, times, serif;
 }
 
+.navbar-contenido {
+    text-align: right;
+}
+
 .texto-empresa {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -348,7 +353,6 @@ a {
     display: flex;
     padding: 0;
     width: 400%;
-
     animation: cambio 20s infinite alternate linear;
 }
 
