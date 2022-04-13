@@ -7,8 +7,6 @@ body {
     margin: 0;
 }
 
-
-
 h1 {
     color: black;
     text-align: center;
@@ -20,6 +18,7 @@ h1 {
     height: 7rem;
     
 }
+
 
 
 #viajes {
@@ -140,15 +139,13 @@ ul {
     z-index: 1;
 }
 
+
 ul li a:hover {
     background: #8b8888;
     transition: all 0.4s linear;
     border-radius: 5px;
 }
 
-.foto-empresa-final {
-
-}
 
 @media (max-width: 767px) {
     .foto-empresa-final {
@@ -177,6 +174,8 @@ ul li a:hover {
     flex-wrap: wrap;
 
 }
+
+
 
 @media (max-width: 767px) {
     .menu-icon {
@@ -445,6 +444,7 @@ a {
     margin: 0 0 1rem 0;
 }
 
+
 @media(min-width: 700px) {
     .contenido {
         padding: 0 4em;
@@ -571,5 +571,7 @@ a {
         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
     }
 }
+
+
 
 }
