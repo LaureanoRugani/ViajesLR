@@ -48,9 +48,12 @@ h1 {
 .imagen-paisaje1 {
   height: 300px;
   width: 300px;
-  margin-right: 50px;
   border: solid 4px #0a0a2e;
   border-radius: 20px; }
+
+  .imagenes-inicio1 {
+    margin-right: 50px;
+  }
 
 .imagen-1 {
   width: 300px;
@@ -345,7 +348,7 @@ section .slider img {
   text-align: center;
   margin: 0 0 1rem 0; }
 
-@media (min-width: 700px) {
+@media (min-width:320px) {
   .contenido {
     padding: 0 4em; }
   .contacto-wrapper {
@@ -408,6 +411,7 @@ section .slider img {
     color: #fff; }
   .pie-pagina .grupo-2 small {
     font-size: 15px; } }
+
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
   .pie-pagina .grupo-1 {
