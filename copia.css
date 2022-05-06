@@ -416,7 +416,23 @@ a {
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85); }
     100% {
       box-shadow: 0 0 0 25px rgba(0, 0, 0, 0); } }
-  
+  @keyframes cambio {
+    0% {
+      margin-left: 0; }
+    20% {
+      margin-left: 0; }
+    25% {
+      margin-left: -100%; }
+    45% {
+      margin-left: -100%; }
+    50% {
+      margin-left: -200%; }
+    70% {
+      margin-left: -200%; }
+    75% {
+      margin-left: -300%; }
+    100% {
+      margin-left: -300%; } }
   @keyframes efecto {
     0% {
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85); }
