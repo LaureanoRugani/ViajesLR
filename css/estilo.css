@@ -41,9 +41,9 @@ h1 {
 #imagenesInicio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 40px;
-  padding: 40px; }
+  justify-content: space-around;
+  margin: 40px 0 40px 0;
+}
 
 .imagen-paisaje1 {
   height: 300px;
@@ -51,9 +51,6 @@ h1 {
   border: solid 4px #0a0a2e;
   border-radius: 20px; }
 
-  .imagenes-inicio1 {
-    margin-right: 50px;
-  }
 
 .imagen-1 {
   width: 300px;
@@ -74,6 +71,10 @@ h1 {
   margin-top: 90px;
   margin-bottom: 80px; }
 
+.separador {
+  background-color: #0a0a2e;
+  height: 3px;
+}
 .redes-contacto {
   display: flex;
   flex-direction: column;
@@ -247,24 +248,6 @@ a {
   margin-top: 40px;
   margin-bottom: 80px; }
 
-section .slider {
-  width: 97%;
-  margin: auto;
-  overflow: hidden;
-  margin-top: 5rem; }
-
-section .slider ul {
-  display: flex;
-  padding: 0;
-  width: 400%;
-  animation: cambio 20s infinite alternate linear; }
-
-section .slider li {
-  width: 100%;
-  list-style: none; }
-
-section .slider img {
-  width: 100%; }
 
 .contenido {
   background-color: black;
@@ -378,10 +361,18 @@ section .slider img {
   .pie-pagina .grupo-1 .box h2 {
     color: #fff;
     margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 20px; }
   .pie-pagina .grupo-1 .box p {
     color: #efefef;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .red-social {
+    margin-left: 5%;
+  }
   .pie-pagina .grupo-1 .red-social a {
     display: inline-block;
     text-decoration: none;
