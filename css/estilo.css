@@ -121,8 +121,7 @@ ul li a:hover {
 
 @media (max-width: 767px) {
   .foto-empresa-final {
-    width: 380px;
-    height: 350px; } }
+    width: 100%; } }
 
 .logo-header {
   letter-spacing: 15px;
@@ -247,7 +246,8 @@ a {
 .fotoEmpresa {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+}
 
 
 .contenido {
