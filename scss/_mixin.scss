@@ -1,0 +1,12 @@
+/* mixins */
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin tamanio($width, $height, $color, $margen) {
+    width: $width;
+    height: $height;
+    color: $color;
+    margin: $margen;
+}
