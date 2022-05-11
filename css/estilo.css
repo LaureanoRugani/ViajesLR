@@ -42,8 +42,8 @@ ul li a {
 
 ul li a:hover {
   background: #8b8888;
-  -webkit-transition: all 0.4s linear;
-  transition: all 0.4s linear;
+  -webkit-transition: all 0.9s linear;
+  transition: all 0.9s linear;
   border-radius: 5px;
 }
 

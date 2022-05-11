@@ -13,8 +13,8 @@ ul {
             color: white;
             font-family: georgia, times, serif; 
             &:hover {
-                background: #8b8888;
-                transition: all 0.4s linear;
+                background: $grey1;
+                transition: all 0.9s linear;
                 border-radius: 5px;
             }
         }
@@ -22,7 +22,7 @@ ul {
 }
 
 .separador {
-    background-color: #0a0a2e;
+    background-color: $blue1;
     height: 3px;
 }
 
