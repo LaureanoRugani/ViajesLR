@@ -1,18 +1,22 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Poppins:wght@500&display=swap');
 html {
   font-size: 62.5%;
 }
 
 body {
-  background-color: gainsboro;
+  background-color: #273746;
   margin: 0;
+  
+
 }
 
 body h1 {
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text-center {
@@ -48,7 +52,7 @@ ul li a:hover {
 }
 
 .separador {
-  background-color: #0a0a2e;
+  background-color: #000000;
   height: 3px;
 }
 
@@ -75,7 +79,7 @@ ul li a:hover {
 #imagenesInicio .imagenes-inicio1 .imagen-paisaje1 {
   height: 300px;
   width: 300px;
-  border: solid 4px #0a0a2e;
+  border: solid 3px #000000;
   border-radius: 20px;
 }
 
@@ -90,7 +94,6 @@ ul li a:hover {
 .fuenteGrande {
   font-size: 5rem;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-top: 15px;
 }
 
@@ -107,7 +110,7 @@ ul li a:hover {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  border: solid 4px #0a0a2e;
+  border: solid 4px #000000;
   border-radius: 20px;
 }
 
@@ -282,7 +285,7 @@ ul li a:hover {
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
   }
   .pie-pagina {
     width: 100%;
@@ -356,6 +359,80 @@ ul li a:hover {
   .pie-pagina .grupo-2 small {
     font-size: 15px;
   }
+
+
+
+.selectFlights {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+  #flightsContainer {
+    background-color: #212F3D;
+    max-width: 1000px;
+    height: 120px;
+    width: 75%;
+    border-radius: 0px 0px 20px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+    #flightsContainer div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center; }
+      #flightsContainer div label {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding-inline: 40px; }
+        #flightsContainer div label p {
+          display: flex;
+          align-items: center;
+          text-align: center;
+          font-family: 'Poppins', sans-serif;
+          color: #00FFC2;
+          font-weight: 500;
+          font-size: 16px;
+          background: #3A4550;
+          border-radius: 5px 5px 0px 0px;
+          height: 40px;
+          width: 150%;
+          justify-content: center;
+          align-content: center; }
+        #flightsContainer div label #searchP img {
+          margin-left: 4px; }
+        #flightsContainer div label select {
+          height: 42px;
+          width: 150%;
+          margin-inline: 15px;
+          color: #f3f3f3;
+          background-color: #2C343D;
+          border: none;
+          border-radius: 0px 0px 17px 17px;
+          text-align: center;
+          font-family: 'Poppins', sans-serif; }
+          #flightsContainer div label select:focus {
+            border: none;
+            box-shadow: 0px 0px 20px 0px #00FFC2; }
+        #flightsContainer div label input {
+          caret-color: #00FFC2;
+          height: 42px;
+          width: 150%;
+          color: #f3f3f3;
+          background-color: #2C343D;
+          border: none;
+          border-radius: 0px 0px 17px 17px;
+          text-align: center;
+          font-family: 'Poppins', sans-serif; }
+          #flightsContainer div label input:focus {
+            border: none; }
+          #cardSection {
+            padding-bottom: 40px !important; }
+
 }
 
 @media (min-width: 590px) {

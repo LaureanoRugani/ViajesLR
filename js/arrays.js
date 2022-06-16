@@ -1,44 +1,44 @@
 // // const IVA = 1.21
-// // const paises = ['Roma', 'Amsterdam', 'Paris', 'Tokyo', 'Cancun', 'Panama']
+// const paises = ['Roma', 'Amsterdam', 'Paris', 'Tokyo', 'Cancun', 'Panama']
 
-// // const productos = []
-// // const carrito = []
+// const productos = []
+// const carrito = []
 
-// // function recorrerArray () {
-// //     for (let i = 0; i < 6; i++) {
-// //         console.log(paises[i])
-// //     }
-// // }
+// function recorrerArray () {
+//     for (let i = 0; i < 6; i++) {
+//         console.log(paises[i])
+//     }
+// }
 
-// // function listarPaises() {
-// //     console.clear()
-// //     console.table(paises)
-// // }
+// function listarPaises() {
+//     console.clear()
+//     console.table(paises)
+// }
 
 
-// // function agregarPais() { 
-// //     let nuevoPais = prompt("Ingresa un nuevo país:")
-// //         paises.push(nuevoPais)
-// //         listarPaises()
-// // }
+// function agregarPais() { 
+//     let nuevoPais = prompt("Ingresa un nuevo país:")
+//         paises.push(nuevoPais)
+//         listarPaises()
+// }
 
-// // function quitarPais() {
-// //     let paisAquitar = prompt("Ingresa el país a quitar")
-// //     let indice = paises.indexOf(paisAquitar)
-// //     let resultado = paises.splice(indice, 1)
-// //         alert("Se ha eliminado el país: " + resultado)
-// //         listarPaises()
-// // }
+// function quitarPais() {
+//     let paisAquitar = prompt("Ingresa el país a quitar")
+//     let indice = paises.indexOf(paisAquitar)
+//     let resultado = paises.splice(indice, 1)
+//         alert("Se ha eliminado el país: " + resultado)
+//         listarPaises()
+// }
 
-// // function buscarPais() {
-// //     let paisAbuscar = prompt("Ingresa el país a buscar:")
-// //     let resultado = paises.includes(paisAbuscar)
-// //         if (resultado) {
-// //             console.log("El país se encuentra cargado.")
-// //         } else {
-// //             console.warn("No se encontró el país:", paisAbuscar)
-// //         }
-// // }
+// function buscarPais() {
+//     let paisAbuscar = prompt("Ingresa el país a buscar:")
+//     let resultado = paises.includes(paisAbuscar)
+//         if (resultado) {
+//             console.log("El país se encuentra cargado.")
+//         } else {
+//             console.warn("No se encontró el país:", paisAbuscar)
+//         }
+// }
 
 // function agregarProducto() {
 //     let id = creoID()
@@ -57,16 +57,19 @@
 //         }
 //     }
 
-//     function existeProducto() {
-//         let aBuscar = prompt("Ingrese el código del producto a buscar:")
-//         debugger
-//         let resultado = productos.some((producto)=> producto.id === parseInt(aBuscar))
-//             if (resultado) {
-//                 console.log("El producto existe.")
-//             } else {
-//                 console.error("No se encontró el producto.")
-//             }
-//     }
+
+
+
+const listadoViajes = document.getElementById("listadoViajes")
+const listadoCarrito = document.getElementById("listadoCarrito")
+
+
+const titulo = document.getElementById("titulo")
+
+
+titulo.innerText = "NUEVA YORK"
+
+
 
 
 
@@ -116,6 +119,12 @@ function cargoArrayObj() {
     servicios.push(new Servicio(432, "VIAJES A CANCUN", 2100))
     servicios.push(new Servicio(134, "VIAJES A PANAMA", 2800))
     servicios.push(new Servicio(654, "VIAJES A NUEVA YORK", 3400))
+    servicios.push(new Servicio(657, "VIAJES A IGUAZU", 1700))
+    servicios.push(new Servicio(974, "VIAJES A RIO DE JANEIRO", 1900))
+    servicios.push(new Servicio(752, "VIAJES A BERLIN", 2400))
+    servicios.push(new Servicio(425, "VIAJES A PRAGA", 2700))
+    servicios.push(new Servicio(537, "VIAJES A VENECIA", 2300))
+
 }
 cargoArrayObj()
 
@@ -135,12 +144,16 @@ function precioImpuestos() {
                                         }
     })
     console.table(arrayConvertido)
+
+
 }
 
 // function calculaCarrito() {
 //     const totalCarrito = carrito1.reduce((total, producto) => total + producto.precio, 0)
 //     console.log("TOTAL DEL CARRITO:", total)
 // }
+
+
 
 
 

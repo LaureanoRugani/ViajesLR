@@ -17,7 +17,7 @@
 <body>
 
     
-    
+<header>
     <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
         <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
@@ -47,61 +47,130 @@
         </div>
         </div>
     </nav>
-    
-    <h1 class="fuenteGrande animate__animated animate__lightSpeedInLeft">Servicios de viajes</h1>
+</header>
 
-    <div class="container-fluid mt-4">
-        <div class="row justify-content-center wow animate__animated animate__bounceInUp animate__delay-1s">
+
+<section class="selectFlights">
+
+    <div id="flightsContainer">
+    <div>
+        <label for="continent" >
+        <p>Continente</p>
+        <select name="continent" id="continent" >
+            <option value="All">Todos</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">Norte America</option>
+            <option value="South America">America del sur</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+        </select>
+        </label>
+        
+        <label for="price">
+        <p>Precio Minimo</p>
+        <select name="price" id="minPrice">
+        <option value="All">Todos</option>
+        <option value="400">$400</option>
+        <option value="500">$800</option>
+        <option value="600">$1200</option>
+        <option value="700">$1600</option>
+        <option value="800">$2000</option>
+        <option value="900">$2400</option>
+
+        </select>
+    </label>
+        <label for="price">
+        <p>Precio Maximo</p>
+        <select name="price" id="maxPrice">
+        <option value="All">Todos</option>
+        <option value="400">$400</option>
+        <option value="500">$800</option>
+        <option value="600">$1200</option>
+        <option value="700">$1400</option>
+        <option value="800">$2000</option>
+        <option value="900">$2400</option>
+
+        </select>
+    </label>
+
+    <label for="searchFight">
+        <p id="searchP">Buscar<img src="./assets/svg/icons/searchGreen.svg" alt=""></p>
+        <input type="text" name="searchFight" id="searchFlight" >
+    </label>
+    </div>
+    </div>
+</section>
+    <section class="containerCards" >
+        <div id="cardSection">
+
+
+        </div>
+    </section>
+    
+    <h1 class="fuenteGrande animate__animated animate__lightSpeedInLeft" id="titulo">Servicios de viajes</h1>
+
+    <div class="container-fluid mt-4" id="listadoViajes">
+        <div class="row justify-content-center wow animate__animated animate__bounceInUp animate__delay-1s" id="listadoViajes">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/nueva-york_0.webp"  class="img-thumbail img-fluid imagen-1" alt="Imagen Nueva York">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Nueva York</h3>
+                <h3 class="fw-bold fst-italic text-center text-white" id="titulos">Viajes a Nueva York</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/coliseo-roma_2924b6ae_1280x720.jpg" class="img-thumbail img-fluid imagen-1" alt="Imagen Roma">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Roma</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Roma</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/9c.jpg" class="img-thumbail img-fluid imagen-1" alt="Imagen Paris">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Paris</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Paris</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Iguazu-800-700.jpg" class="img-thumbail img-fluid imagen-1" alt="Imagen Iguazú">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Iguazú</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Iguazú</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Amsterdam.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Amsterdam">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Amsterdam</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Amsterdam</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Tokyo.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Tokyo">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Tokyo</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Tokyo</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Cancun.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Cancún">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Cancun</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Cancun</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Rio de Janeiro.jpg" class="img-thumbail img-fluid imagen-1" alt="Imagen Rio de Janeiro">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Rio de Janeiro</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Rio de Janeiro</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Berlin.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Berlin">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Berlin</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Berlin</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Praga.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Praga">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Praga</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Praga</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Venecia.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Venecia">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Venecia</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Venecia</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <img src="../img/Fotos Servicios/Panama.jpg"  class="img-thumbail img-fluid imagen-1" alt="Imagen Panama">
-                <h3 class="fw-bold fst-italic text-center text-black">Viajes a Panama</h3>
+                <h3 class="fw-bold fst-italic text-center text-white">Viajes a Panama</h3>
             </div>
             
         </div>
+    </div>
+
+    <div class="center">
+        <h3>Carrito</h3>
+    </div>
+    <div class="color-carrito carrito center">
+        <ul class="collection" id="listadoCarrito">
+
+        </ul>
+
     </div>
 
     <div class="container-boton">
